@@ -1,0 +1,378 @@
+/*-----------------------------------------------------------------Practish-formine----------------------------------------------*/
+/*------------------------------------------------------------Practish ForMine-------------------------*/
+body{
+	padding:0px;
+	margin:0px;
+}
+.head-section{
+	width:100%;
+	background-image:url(../images/banner-bg.png);
+	height:auto;
+	background-size:100%;
+	background-repeat:no-repeat;
+	
+    
+}
+.container{
+	width:90%;
+	margin:0 auto;
+}
+.row{
+	display:flex;
+}
+.menu{
+	background-color:#2b2a29;
+    padding:18px 0px;
+	clip-path: polygon(0 0, 100% 0, 96% 100%, 3% 100%);
+	display:flex;
+	justify-content:center;
+	width:100%;
+	margin:0 auto;
+	list-style-type:none;
+	
+}
+
+.menu a{
+	text-decoration:none;
+	color:#f1f1f1;
+	font-size:18px;
+	margin-left:16px;
+}
+.menu a:hover{
+	color:#f26522;
+}
+.head-banner{
+	display:flex;
+	margin-top:30px;
+	
+}
+.head-Eflyer{
+	text-align:center;
+	 padding-top:30px;
+}
+.head-category select{
+	text-align:center;
+	background-color:#2b2a29;
+	color:#f1f1f1;
+	width:70%;
+	padding:10px;
+	font-size:16px;
+	margin-left:30px;
+	border-radius:5px;
+}
+
+.head-srcblog input{
+	width: 500px;
+    padding: 10px;
+    font-size: 20px;
+    position: relative;
+    height: 38px;
+    border: none;
+    border-radius: 5px;
+}
+.head-srcblog button{
+	position: absolute;
+    width: 36px;
+    height: 39px;
+    background-color: #f26522;
+    background-repeat: no-repeat;
+    border: none;
+	border-radius: 5px;
+}
+.head-sltblog{
+	margin-left:20px;
+}
+
+.head-sltblog select{
+	background-color:#f1f1f1;
+	background-image:url(../images/flag-uk.png);
+	background-repeat:no-repeat;
+	padding:8px 25px;
+	font-size:16px;
+	position:relative;
+	background-position: 8%;
+	margin-left:30px;
+	
+	
+}
+.head-sltblog select:hover{
+	color:#fd7e14;
+}
+.head-get h1{
+	text-align:center;
+	font-size:50px;
+	color:#ffffff;
+	top:20px;
+	font-weight:bold;
+}
+.head-bttn p{
+	text-align:center;
+	margin-top:50px;
+}
+.head-bttn a{
+	text-decoration:none;
+	color:#ffffff;
+	font-weight:bold;
+	background-color:#252525;
+	padding:14px 40px;
+	border-radius:4px;
+}
+.social-icon{
+	display:flex;
+	list-style-type:none;
+	
+}
+.social-icon li{
+	margin-right:10px;
+}
+
+.social-icon a{
+	text-decoration:none;
+	color:#fff;
+	text-transform:uppercase;
+}
+.social-icon i{
+	margin-right:7px;
+}
+.social-icon a:hover{
+	color:red;
+	    transition: all .3s ease-in-out;
+}	
+
+/*--Header Section end8--*/
+
+/*Desgin Section clothes start*/
+.clothesdesign-section {
+	width:100%;
+	padding:35px 0px;
+}
+.cloths-fashion h1{
+	text-align:center;
+	font-size:40px;
+	color:#252525;
+	font-weight:bold;
+}
+.row{
+	display:flex;
+}
+.cloths-col{
+	width:33%;
+}
+.box{
+	box-shadow:4px 4px 35px 15px #f0f0f0;
+	margin-left:20px;
+	text-align:center;
+    margin-bottom:-10px;
+}
+.cloths-col h1{
+	padding-top:22px;
+	font-size:22px;
+	font-weight:bold;
+}
+.design-img{
+	padding-top:35px;
+}
+.cloths-col p{
+	color:#f26522;
+	font-weight:500;
+	font-size:19px;
+	margin-top:-5px;
+}
+.design-price{
+	color:#262626;
+}
+.design-buy{
+	padding-top:50px;
+	padding-bottom:25px;
+}
+
+.design-buy a{
+	text-decoration:none;
+	color: #f26522;
+	font-weight:bold;
+	
+	
+}
+.design-see a{
+	color:#262626;
+	
+}
+/*Desgin Section clothes end */
+/*Desgin Section Electronic start*/
+.electronic-section{
+	width:100%;
+	padding:50px 0px;
+}
+.elctro-col{
+	width:33%;
+}
+.elctnic h1{
+	text-align:center;
+	font-size:42px;
+	color:#30302e;
+	font-weight:bold;
+}
+.box1{
+	margin-left:20px;
+	text-align:center;
+	box-shadow:4px 4px 35px 15px #f0f0f0;
+}
+.elctro-col h1{
+	font-size:22px;
+	font-weight:bold;
+	padding-top:22px;
+}
+.elctro-col p{
+	color:#f26522;
+	font-weight:500;
+	font-size:18px;
+	margin-top:-5px;
+}
+.eloctr-price{
+	color:#262626;
+	font-weight:bold;
+}
+.lapt-img{
+	padding-top:50px;
+	width:300px;
+	height:280px;
+}
+.electro-see{
+	color:#262626;
+	font-weight:bold;
+	font-size:19px;
+}
+.laptop-buy{
+	padding-top:50px;
+	padding-bottom:15px;
+}
+.laptop-buy a{
+	text-decoration:none;
+	color:#f26522;
+	font-weight:bold;
+	font-size:19px;
+	
+}
+
+/*Desgin Section Electronic end*/
+/*Desgin Section Jewellery  start*/
+.Jewellery-section{
+	width:100%;
+	padding:50px 0px;
+	
+}
+.jewell-heading h1{
+	font-size:40px;
+	text-align:center;
+	font-weight:bold;
+	
+}
+.jewelry-col{
+	width:33%;
+}
+.box2{
+	box-shadow:4px 4px 35px 15px #f0f0f0;
+	text-align:center;
+	margin-left:25px;
+}
+.jewelry-col h1{
+	font-size:22px;
+	padding-top:24px;
+	
+}
+.jewell-price {
+	color:#f26522;
+	font-size:18px;
+	margin-top:-5px;
+}
+.jewell-buy a{
+	text-decoration:none;
+	color:#f26522;
+	font-weight:bold;
+	font-size:20px;
+}
+.jewell-see{
+	color:#262626;
+	font-size:20px;
+}
+.jhumka-img{
+	padding-top:25px;
+	width:320px;
+	height:320px;
+	
+}
+.jewell-buy{
+	padding-top:30px;
+	padding-bottom:20px;
+}
+/*Desgin Section Jewellery  start*/
+/*footer Section start*/
+.footer-section{
+	width:100%;
+	background-color:#252525;
+	height:auto;
+	padding:50px 0px 10px 0px;
+}
+.eflyer-heading{
+	color:#ffffff;
+	font-size:45px;
+	text-align:center;
+	font-weight:bold;
+	
+}
+.email-footr{
+	color:#ffffff;
+	font-size:20px;
+	text-align:center;
+	display:flex;
+	justify-content:space-around;
+	border-bottom:1px solid #fff;
+	width:70%;
+	margin:0 auto;
+	padding-bottom:20px;
+	
+}
+
+.subcrib-footr a{
+	text-decoration:none;
+	color:#f26522;
+	padding-bottom:20px;
+}
+.subcrib-footr a:hover{
+	color:#ffffff;
+}
+.footer-list{
+	display:flex;
+	list-style-type:none;
+	justify-content:center;
+}
+.footer-list a{
+	text-decoration:none;
+	color:#ffffff;
+	margin-left:40px;
+	font-size:18px;
+}
+.footer-list a:hover{
+	color:#f26522;
+}
+.footer-num{
+	font-size:18px;
+	color:#ffffff;
+	text-align:center;
+	font-weight:500;
+}
+.footer-yr{
+	  font-size:18px;
+	  color:#ffffff;
+	  text-align:center;
+	  font-weight:500;
+}
+.footer-num{
+	padding-top:35px;
+}
+.footer-yr{
+	padding-top:40px;
+}
+/*footer Section end*/
+
+

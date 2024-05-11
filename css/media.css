@@ -1,0 +1,120 @@
+@media only screen and (max-width:768px){
+	
+	.row{
+		flex-wrap:wrap;
+	}
+	.menu{
+		display:none;
+	}
+	
+     .head-section{
+       background-size: cover;
+	   width:483px;
+	   height:500px;
+	   
+	  
+     }
+	
+	
+	
+	.head-category select {
+		display:none;
+	}
+	.head-srcblog input {
+		width:350px;
+		margin-left:20px;
+		margin-top:85px;
+	}
+	
+
+.head-sltblog select {
+    background-color: #f1f1f1;
+    background-image: url(../images/flag-uk.png);
+    background-repeat: no-repeat;
+    padding: 8px 25px;
+    font-size: 16px;
+    position: relative;
+    background-position: 8%;
+    left: -474px;
+    top: -44px;
+	color:#fff;
+    background-color: transparent;
+    border: none;
+	margin-top: 52px;
+}
+   .social-icon{
+	margin-left: -324px;
+    margin-top: -28px;
+	
+	margin-top: 25px;
+}
+  
+   .head-get h1{
+	   font-size:22px;
+	   margin-top:40px;
+	   
+   }
+   .head-banner img{
+	    margin-top: 11px;
+   }
+    .head-srcblog button {
+       margin-top: 84px;
+	}
+	.imaggg{
+    position: relative;
+    top: 71px;
+	}
+	.head-bttn a{
+		    padding: 16px 54px;
+	}
+	.cloths-fashion h1{
+		font-size:27px;
+		margin-top:-35px;
+	}
+	/*  header */
+	/*  Desgin clothes */
+	.cloths-col{
+		width:100%;
+	}
+	/* Desgin */
+	
+	/* Desgin Section Electronic  start*/
+	  
+	  .elctro-col{
+		  width:100%;
+	  }
+	  .elctnic h1 {
+		 font-size:30px; 
+	  }
+	/* Desgin Section Electronic  end*/
+	/* Desgin Section Jewellry start*/
+	.jewell-heading h1{
+	  font-size:30px;
+	}
+	.jewelry-col{
+		width:100%;
+	}
+	/* footer start */
+	 .email-footr{
+		 width:100%;
+	 }
+	 .footer-list{
+		flex-direction:column; 
+         margin-left:70px;	
+	 }
+	  .head-sltblog{
+		  display:none;
+	  }
+	   .footer-list li{
+		 line-height:40px;
+	 }
+	/* footer end */
+	
+	
+	.hide{
+		display:none;
+	}
+	.email-footr{
+	     padding-bottom:0px;
+	}
+}
